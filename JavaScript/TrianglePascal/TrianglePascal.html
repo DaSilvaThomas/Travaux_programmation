@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Triangle_de_Pascal</title>
+		<script type="text/javascript" src="TrianglePascal.js"></script>
+		<style>
+			table{
+                font-family: Arial, Helvetica, sans-sherif;
+                border-collapse: collapse;
+                width: 80%;
+				text-align: center;
+            }
+            tr, td{
+                border: 2px solid gray;
+                padding: 5px;
+            }
+			td#colore {
+  				background-color: beige;
+  			}
+		</style>
+	</head>
+	<body>
+		<h1>Triangle de Pascal</h1>
+		<form>
+			<label>Taille du triangle de Pascal : </label>
+			<input type="number" id="taille" value="5" /><br /><br />
+			<input type="button" onclick="Nombre(); return false;" value="Générer le triangle" />
+		</form>
+		<p id="triangle"></p>
+	</body>
+</html>

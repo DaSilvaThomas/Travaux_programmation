@@ -1,0 +1,2 @@
+Dans ces répertoires, vous découvrirez divers projets que j'ai menés dans le cadre de mon master. 
+Cette sélection ne couvre pas l'intégralité des sujets abordés en cours, mais vise plutôt à mettre en valeur mes compétences dans différents paradigmes et langages de programmation.

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeu_Mystère</title>
+        <style>
+            html{
+                padding: 50px;
+            }
+            table{
+                border: 1px solid black;
+                text-align: center;
+            }
+            td{
+                border: 1px solid black;
+                width: 30px;
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Jeu Mystère</h1>
+        
+        <p>Voici le code à tuliser :</p>
+        <p id="tableau"></p>
+        
+        <label>Tapez les mots à encoder :</label></br>
+        <input type="text" id="code"/></br></br>
+        
+        <button onclick="Code(code.value);return false;">Générer le code</button></br>
+        <p id="resultat"></p>
+
+        <script type="text/javascript" src="JeuMystere.js"></script>
+    </body>
+</html>
